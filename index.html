@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditi Saxena — Fuel Cell Materials Researcher</title>
+<meta name="description" content="Aditi Saxena — PhD candidate in mechanical characterization of PEM fuel cell membrane electrode assemblies. Nanoindentation, nanoscratching, electro-mechanical puncture testing.">
+
+<!--
+  ============================================================
+  HOW TO EDIT  (no coding needed)
+  ------------------------------------------------------------
+  * Change any text between the > and < marks.
+  * Search the file for the word  EDIT  to find every spot
+    that needs your real info (email, links, photo, talk title).
+  * Anything in [square brackets] is a placeholder to replace.
+  * To add your photo: upload your headshot to the same repo,
+    then see the comment marked  EDIT PHOTO  below.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0b0e0d;
+  --bg-2:#101514;
+  --surface:#141a19;
+  --surface-2:#171e1d;
+  --line:rgba(255,255,255,.08);
+  --line-2:rgba(255,255,255,.14);
+  --text:#e9ede9;
+  --muted:#9aa39d;
+  --faint:#6b736d;
+  --accent:#34d6ad;
+  --accent-dim:#1f8a72;
+  --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"Hanken Grotesk",-apple-system,sans-serif;
+  font-size:17px;line-height:1.65;font-weight:400;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(45% 35% at 80% -5%,rgba(52,214,173,.12),transparent 70%),
+    radial-gradient(40% 30% at 5% 12%,rgba(52,214,173,.07),transparent 70%);
+}
+.wrap{position:relative;z-index:1;max-width:var(--max);margin:0 auto;padding:0 26px;}
+a{color:var(--accent);text-decoration:none;transition:color .2s,opacity .2s;}
+a:hover{opacity:.8;}
+.mono{font-family:"JetBrains Mono",monospace;}
+
+nav{position:sticky;top:0;z-index:50;background:rgba(11,14,13,.72);backdrop-filter:blur(12px) saturate(140%);border-bottom:1px solid var(--line);}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;}
+.logo{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:15px;letter-spacing:.01em;display:flex;align-items:center;gap:9px;color:var(--text);}
+.logo .badge{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--accent);color:#04130f;font-size:13px;font-weight:700;}
+.nav-links{display:flex;gap:26px;}
+.nav-links a{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--muted);letter-spacing:.02em;}
+.nav-links a:hover{color:var(--accent);opacity:1;}
+@media(max-width:780px){.nav-links{display:none;}}
+
+.hero{padding:74px 0 56px;}
+.hero-grid{display:grid;grid-template-columns:1.4fr .9fr;gap:48px;align-items:center;}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr;gap:34px;}.hero{padding:48px 0 40px;}}
+.pill{display:inline-flex;align-items:center;gap:9px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent);border:1px solid var(--line-2);border-radius:999px;padding:7px 15px;margin-bottom:26px;background:rgba(52,214,173,.05);}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 rgba(52,214,173,.6);animation:pulse 2.4s infinite;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,214,173,.5);}70%{box-shadow:0 0 0 8px rgba(52,214,173,0);}100%{box-shadow:0 0 0 0 rgba(52,214,173,0);}}
+.hero h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:clamp(2.6rem,6.5vw,4.6rem);line-height:1.02;letter-spacing:-.025em;margin-bottom:20px;}
+.hero h1 .accent{color:var(--accent);}
+.hero .sub{font-size:clamp(1.05rem,2.2vw,1.32rem);color:var(--muted);max-width:46ch;margin-bottom:30px;line-height:1.5;}
+.cta{display:flex;flex-wrap:wrap;gap:12px;}
+.btn{font-family:"JetBrains Mono",monospace;font-size:13.5px;padding:12px 22px;border-radius:10px;transition:all .2s;display:inline-flex;align-items:center;gap:8px;}
+.btn-primary{background:var(--accent);color:#04130f;font-weight:500;}
+.btn-primary:hover{opacity:1;transform:translateY(-2px);box-shadow:0 10px 30px -10px rgba(52,214,173,.5);}
+.btn-ghost{border:1px solid var(--line-2);color:var(--text);}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent);opacity:1;}
+
+.photo-frame{position:relative;justify-self:center;}
+.photo-frame::after{content:"";position:absolute;inset:-1px;border-radius:18px;background:linear-gradient(150deg,var(--accent),transparent 55%);opacity:.5;z-index:-1;}
+.photo{width:min(320px,72vw);aspect-ratio:4/5;border-radius:18px;object-fit:cover;border:1px solid var(--line-2);display:block;background:var(--surface);}
+.photo-ph{width:min(320px,72vw);aspect-ratio:4/5;border-radius:18px;border:1px dashed var(--line-2);display:grid;place-items:center;text-align:center;padding:24px;background:var(--surface);font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--faint);line-height:1.7;}
+
+.glance{border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.glance .wrap{display:grid;grid-template-columns:repeat(4,1fr);}
+@media(max-width:680px){.glance .wrap{grid-template-columns:repeat(2,1fr);}}
+.stat{padding:26px 22px;border-left:1px solid var(--line);}
+.stat:first-child{border-left:none;}
+@media(max-width:680px){.stat:nth-child(odd){border-left:none;}}
+.stat .n{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:1.7rem;color:var(--accent);line-height:1;margin-bottom:7px;letter-spacing:-.01em;}
+.stat .l{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--muted);letter-spacing:.02em;}
+
+section{padding:80px 0;}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-dim);margin-bottom:14px;}
+h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-.02em;line-height:1.08;margin-bottom:26px;}
+.body-text{color:var(--muted);max-width:64ch;margin-bottom:16px;font-size:1.05rem;}
+.body-text strong{color:var(--text);font-weight:500;}
+
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:8px;}
+.skill-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;}
+.skill-card h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:1.05rem;margin-bottom:16px;color:var(--text);}
+.tags{display:flex;flex-wrap:wrap;gap:8px;}
+.tag{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:6px 11px;transition:all .2s;}
+.skill-card:hover .tag{border-color:var(--line-2);}
+
+.xp{border-left:2px solid var(--line);padding:4px 0 4px 28px;position:relative;margin-bottom:38px;}
+.xp::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--bg);}
+.xp h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:1.2rem;color:var(--text);}
+.xp .org{color:var(--accent);font-weight:500;}
+.xp .meta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--faint);margin:5px 0 14px;}
+.xp ul{list-style:none;display:grid;gap:9px;}
+.xp li{color:var(--muted);padding-left:20px;position:relative;max-width:70ch;font-size:1.02rem;}
+.xp li::before{content:"\203A";position:absolute;left:0;color:var(--accent);}
+
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;transition:all .25s;position:relative;overflow:hidden;}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0;transition:opacity .3s;}
+.card:hover{transform:translateY(-4px);border-color:var(--line-2);background:var(--surface-2);}
+.card:hover::before{opacity:.7;}
+.card .num{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent-dim);margin-bottom:14px;}
+.card h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:1.28rem;line-height:1.18;margin-bottom:12px;}
+.card .desc{color:var(--muted);font-size:1rem;margin-bottom:18px;flex-grow:1;}
+.card .highlight{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;color:var(--accent);font-size:1.5rem;letter-spacing:-.01em;line-height:1;}
+.card .highlight span{display:block;font-family:"JetBrains Mono",monospace;font-weight:400;font-size:11.5px;color:var(--faint);margin-top:6px;letter-spacing:.02em;}
+.card .ctags{display:flex;flex-wrap:wrap;gap:7px;margin:20px 0 16px;}
+.card .links{display:flex;gap:18px;font-family:"JetBrains Mono",monospace;font-size:12.5px;border-top:1px solid var(--line);padding-top:16px;align-items:center;justify-content:space-between;}
+
+.edu{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line);}
+.edu:last-child{border-bottom:none;}
+.edu h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:1.15rem;}
+.edu p{color:var(--muted);font-size:1rem;}
+.edu .when{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--accent);white-space:nowrap;}
+
+.contact-wrap{text-align:center;max-width:620px;margin:0 auto;}
+.contact-wrap h2{margin-bottom:18px;}
+.contact-wrap .body-text{margin:0 auto 30px;}
+.contact-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;}
+footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--faint);}
+
+.r{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;}
+.r.show{opacity:1;transform:none;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top"><span class="badge">AS</span> Aditi Saxena</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="r show">
+        <span class="pill"><span class="dot"></span>Open to postdoctoral positions &middot; 2027 (flexible earlier)</span>
+        <h1>Hi, I'm <span class="accent">Aditi&nbsp;Saxena</span>.</h1>
+        <p class="sub">I study the mechanics of how proton exchange membrane fuel cells fail &mdash; and build the tools to measure it.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">View Research &rarr;</a>
+          <!-- EDIT links: replace the # with your real URLs -->
+          <a class="btn btn-ghost" href="#">LinkedIn</a>
+          <a class="btn btn-ghost" href="#">CV (PDF)</a>
+        </div>
+      </div>
+      <div class="photo-frame r show">
+        <!--
+          EDIT PHOTO:
+          1. Upload your headshot to the same GitHub repo (e.g. headshot.jpg)
+          2. Delete the <div class="photo-ph">...</div> line below
+          3. Uncomment the <img> line by removing the surrounding comment marks
+        -->
+        <!-- <img class="photo" src="headshot.jpg" alt="Aditi Saxena"> -->
+        <div class="photo-ph">[ Your photo here ]<br>upload headshot.jpg to the repo,<br>then follow the comment above</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="glance">
+  <div class="wrap">
+    <div class="stat"><div class="n">2022</div><div class="l">HITEC Fellow since</div></div>
+    <div class="stat"><div class="n">Oct&nbsp;2026</div><div class="l">PhD defense (expected)</div></div>
+    <div class="stat"><div class="n">3</div><div class="l">characterization methods</div></div>
+    <div class="stat"><div class="n">MSE&nbsp;&rsquo;24</div><div class="l">Darmstadt, presented</div></div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap r">
+    <div class="eyebrow">Introduction</div>
+    <h2>Durability is a mechanical problem<br>as much as an electrochemical one.</h2>
+    <p class="body-text">I'm a HITEC Fellow and PhD candidate at <strong>Forschungszentrum J&uuml;lich (IMD-1)</strong>, completing my doctorate with RWTH Aachen. My research sits where materials mechanics meets electrochemical energy: understanding how PEM fuel cell membrane electrode assemblies fail under the coupled mechanical, chemical, and electrical stresses of real operation.</p>
+    <p class="body-text">MEAs fail through three distinct mechanical pathways &mdash; bulk fatigue of the membrane, delamination at the catalyst layer&ndash;membrane interface, and localized puncture from foreign particles. Each demands a different probe. My thesis develops a <strong>multi-modal characterization framework</strong> that combines nanoindentation, nanoscratching, and a custom electro-mechanical puncture test to resolve degradation at the length scales &mdash; and under the hydrated, polarized conditions &mdash; where it actually originates.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap r">
+    <div class="eyebrow">Capabilities</div>
+    <h2>Skills &amp; Methods</h2>
+    <div class="skill-grid">
+      <div class="skill-card">
+        <h3>Mechanical Characterization</h3>
+        <div class="tags">
+          <span class="tag">Nanoindentation</span><span class="tag">Nanoscratching</span>
+          <span class="tag">Electro-mechanical puncture</span><span class="tag">Membrane integrity testing</span>
+          <span class="tag">Oliver&ndash;Pharr analysis</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Microscopy &amp; Imaging</h3>
+        <div class="tags">
+          <span class="tag">SEM</span><span class="tag">Optical microscopy</span>
+          <span class="tag">Failure-mode analysis</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Data &amp; Statistics</h3>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag">OLS regression</span>
+          <span class="tag">Pearson correlation</span><span class="tag">F-statistics</span>
+          <span class="tag">Weibull analysis</span><span class="tag">Heatmaps</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Domain</h3>
+        <div class="tags">
+          <span class="tag">PEM fuel cells</span><span class="tag">MEAs &middot; CCM / CCS</span>
+          <span class="tag">Polymer mechanics</span><span class="tag">Interface adhesion</span>
+          <span class="tag">Electrochemical energy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap r">
+    <div class="eyebrow">Professional Journey</div>
+    <h2>Experience</h2>
+    <div class="xp">
+      <h3>Doctoral Researcher &amp; HITEC Fellow &mdash; <span class="org">Forschungszentrum J&uuml;lich (IMD-1)</span></h3>
+      <div class="meta">2022 &ndash; Present &middot; J&uuml;lich, Germany</div>
+      <ul>
+        <li>Developed a multi-modal mechanical characterization workflow for PEM fuel cell MEAs spanning nanoindentation, nanoscratching, and a custom electro-mechanical puncture test.</li>
+        <li>Designed and validated a custom rig recording simultaneous force&ndash;displacement and current&ndash;voltage signals during controlled puncture of catalyst-coated membranes.</li>
+        <li>Built Python analysis pipelines for failure statistics (Weibull), regression (OLS, F-statistics), and correlation analysis across experimental parameters.</li>
+        <li>Adapted indentation and scratch protocols for porous, sub-micron catalyst layers; compared interfacial adhesion across multiple MEA supplier classes.</li>
+        <li>Presented at MSE 2024 (Darmstadt); two manuscripts in preparation for submission.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow r">Research Projects</div>
+    <h2 class="r">Selected Work</h2>
+    <div class="proj-grid">
+
+      <div class="card r">
+        <div class="num">01</div>
+        <h3>Nanoindentation of Catalyst Layers</h3>
+        <p class="desc">A nanoindentation protocol adapted for the porous, rough, sub-micron catalyst layers that resist standard methods &mdash; mapping modulus and hardness to locate the mechanical heterogeneity that may seed failure.</p>
+        <div class="highlight">sub-&micro;m<span>layers on Nafion-class membranes</span></div>
+        <div class="ctags"><span class="tag">Berkovich</span><span class="tag">Oliver&ndash;Pharr</span><span class="tag">SEM</span></div>
+        <div class="links"><a href="#">Detail &rarr;</a><span class="mono" style="color:var(--faint)">In preparation</span></div>
+      </div>
+
+      <div class="card r">
+        <div class="num">02</div>
+        <h3>Nanoscratching for Interface Adhesion</h3>
+        <p class="desc">A nanoscratch protocol to quantify the critical load for catalyst layer&ndash;membrane delamination &mdash; before macroscopic failure &mdash; and to test whether interfacial water drives a shift from cohesive to adhesive failure.</p>
+        <div class="highlight">3<span>supplier classes compared</span></div>
+        <div class="ctags"><span class="tag">Ramped load</span><span class="tag">RH control</span><span class="tag">SEM</span></div>
+        <div class="links"><a href="#">Detail &rarr;</a><span class="mono" style="color:var(--faint)">Analysis in progress</span></div>
+      </div>
+
+      <div class="card r">
+        <div class="num">03</div>
+        <h3>Electro-Mechanical Puncture Test</h3>
+        <p class="desc">A custom test recording force&ndash;displacement and current&ndash;voltage simultaneously during needle puncture of CCMs &mdash; capturing the coupled electrical&ndash;mechanical failure that conventional puncture testing ignores.</p>
+        <div class="highlight">F&ndash;d &times; I&ndash;V<span>captured simultaneously</span></div>
+        <div class="ctags"><span class="tag">Custom rig</span><span class="tag">Weibull</span><span class="tag">Python</span></div>
+        <div class="links"><a href="#">Detail &rarr;</a><span class="mono" style="color:var(--faint)">Final analysis</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap r">
+    <div class="eyebrow">Background</div>
+    <h2>Education</h2>
+    <div class="edu">
+      <div><h3>PhD, Materials Science</h3><p>RWTH Aachen / Forschungszentrum J&uuml;lich (IMD-1)</p></div>
+      <div class="when">Expected Oct 2026</div>
+    </div>
+    <div class="edu">
+      <div><h3>M.Sc. Applied Physics</h3><p>Amity University &mdash; 9.12 / 10 CGPA</p></div>
+      <div class="when">Completed</div>
+    </div>
+    <div class="edu">
+      <div><h3>HITEC Graduate School Fellowship</h3><p>Forschungszentrum J&uuml;lich</p></div>
+      <div class="when">2022 &ndash; Present</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap r">
+    <div class="contact-wrap">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Let's talk research.</h2>
+      <p class="body-text">Open to postdoctoral positions and collaborations in fuel cell and electrochemical energy systems.</p>
+      <div class="contact-links">
+        <!-- EDIT every link below -->
+        <a class="btn btn-primary" href="mailto:[your email]">Email me</a>
+        <a class="btn btn-ghost" href="#">LinkedIn</a>
+        <a class="btn btn-ghost" href="#">Google Scholar</a>
+        <a class="btn btn-ghost" href="#">ORCID</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>&copy; Aditi Saxena &middot; Forschungszentrum J&uuml;lich, IMD-1 &middot; Built with HTML/CSS</footer>
+
+<script>
+  const obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target);} });
+  },{threshold:.12});
+  document.querySelectorAll('.r').forEach(function(el){obs.observe(el);});
+</script>
+
+</body>
+</html>
